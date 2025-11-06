@@ -8,7 +8,7 @@ import pandas as pd
 load_dotenv()
 FIRE_WORKS_API = os.getenv("GEMINI_API_KEY")
 if not FIRE_WORKS_API:
-    raise ValueError("GEMINI_API_KEY not found in environment variables.")
+    raise ValueError("API_KEY not found in environment variables.")
 
 # CSV path
 CSV_PATH = "asbabul_nuzul_text.csv"
