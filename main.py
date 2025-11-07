@@ -6,7 +6,7 @@ import pandas as pd
 
 # Load .env
 load_dotenv()
-FIRE_WORKS_API = os.getenv("GEMINI_API_KEY")
+FIRE_WORKS_API = os.getenv("fireworks_api_key")
 if not FIRE_WORKS_API:
     raise ValueError("API_KEY not found in environment variables.")
 
